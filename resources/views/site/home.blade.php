@@ -8,7 +8,7 @@
     </ol>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#1d7c5c"/></svg>
+        <img src="{{ asset('./imagens/cliente02.jpeg') }}" alt="aquela imagem ali">
         <div class="container">
           <div class="carousel-caption text-left">
             <h1>RF - Financeiro</h1>
@@ -18,8 +18,8 @@
           </div>
         </div>
       </div>
-      <div class="carousel-item ">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#1d7c5c"/></svg>
+      <div class="carousel-item carsouel-1">
+        <img src="{{ asset('./imagens/cliente0101.jpeg') }}" alt="aquela imagem ali">
         <div class="container">
           <div class="carousel-caption">
             <h1>Você no controle.</h1>
@@ -29,7 +29,8 @@
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#1d7c5c"/></svg>
+        <!-- <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#8ff852"/></svg> -->
+        <img src="{{ asset('./imagens/cliente03.jpg') }}" alt="aquela imagem ali">
         <div class="container">
           <div class="carousel-caption text-right">
             <h1>Tempo é dinheiro</h1>
@@ -59,24 +60,21 @@
     <!-- tres colounas de texto abixo do carrosel -->
     <div class="row">
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
-            
-        <text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img src="{{ asset('./imagens/client-1.png') }}" alt="aquela imagem ali" class="bd-placeholder-img rounded-circle" width="140" height="140" >
+    
+        <h3>Camila</h3>
+        <p>Amo o jeito como o RF apresenta as informações financeira da empresa e todos os seus indicadores de maneira muito visual e intuitiva.</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img src="{{ asset('./imagens/client-2.png') }}" alt="aquela imagem ali" class="bd-placeholder-img rounded-circle" width="140" height="140">
+
+        <h3>Jéssica Honda</h3>
+        <p>O RF nos permite ter tomada de decisões mais ágeis e segura, sem falar que nos ajuda a tornar as tarefas cotidianas mais simples.</p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+        <img src="{{ asset('./imagens/client-3.png') }}" alt="aquela imagem ali" class="bd-placeholder-img rounded-circle" width="140" height="140">
+        <h3>José Rodrigues</h3>
+        <p>Utilizo RF por anos e recomendo para todos os meus clientes e alunos. É uma ferramenta muito fácil de usar que permite maior controle sobre seu fluxo de caixa, contas a pagar, receber, etc.</p>
       </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
@@ -87,11 +85,12 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Interface intuitiva, fácil e acessível a qualquer hora e lugar</span>
+        </h2>
+        <p class="lead">Não nos preocupamos apenas em criar telas bonitas, mas também em como você irá interagir com elas, e como melhorar ao máximo sua experiência de uso, mantendo-o funcional e consistente.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img src="{{ asset('./imagens/facilidade.webp') }}" alt="aquela imagem ali" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
       </div>
     </div>
 
@@ -99,11 +98,11 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Atende a todos, controle financeiro pessoal ou da sua empresa</span></h2>
+        <p class="lead">Deixamos você personalizar o sistema a sua necessidade. Todos os recursos são ativados e inativados no sistema de acordo com as suas escolhas e necessidades.</p>
       </div>
       <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img src="{{ asset('./imagens/personalizavel.webp') }}" alt="aquela imagem ali" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
       </div>
     </div>
 
@@ -111,11 +110,11 @@
 
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <h2 class="featurette-heading">Fique tranquilo, seus dados estarão seguros</span></h2>
+        <p class="lead">Toda informação trocada entre o seu navegador e o RF - Financeiro é feita através de um canal criptografado. Além disso, os dados são armazenados em nuvem.</p>
       </div>
       <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        <img src="{{ asset('./imagens/seguranca2.jpg') }}" alt="aquela imagem ali" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500">
       </div>
     </div>
 

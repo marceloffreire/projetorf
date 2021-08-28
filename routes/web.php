@@ -29,3 +29,6 @@ Route::get('/cadastro', function () {
     return view('site.cadastro');
 })-> name('site.cadastro');
 
+Route::get('/politicaprivacidade', function () {
+    return view('site.politicaprivacidade');
+})-> name('site.politicaprivacidade');

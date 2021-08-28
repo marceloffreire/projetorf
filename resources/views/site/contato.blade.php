@@ -5,7 +5,7 @@
     <div class="conteiner text-center">
   <h1 class="display-0">Entre em Contato</h1>
   <hr class="my-0">
-  <p class="lead">Envie sua mensagem. Retornaremos em breve..</p>
+  <p class="lead">Envie sua mensagem. Retornaremos em breve.</p>
   </div>
 
 

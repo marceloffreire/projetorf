@@ -41,8 +41,9 @@
 
   <!-- FOOTER -->
   <footer class="container">
+    <hr class="featurette-divider">
     <p class="float-right"><a href="#"><ion-icon name="arrow-up-outline"></ion-icon></a></p>
-    <p>&copy; {{date("Y")}} RF Financeiro &middot; <a href="{{route('site.politicaprivacidade')}}">Politica de Privacidade</a> &middot;</p>
+    <p>&copy; {{date("Y")}} RF Financeiro &middot; <a href="{{route('site.home')}}">Home</a> &middot;</p>
   </footer>
 </main>
 
