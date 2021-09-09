@@ -32,3 +32,7 @@ Route::get('/cadastro', function () {
 Route::get('/politicaprivacidade', function () {
     return view('site.politicaprivacidade');
 })-> name('site.politicaprivacidade');
+
+Route::get('/termodeuso', function () {
+    return view('site.termodeuso');
+})-> name('site.termodeuso');
